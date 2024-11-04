@@ -1,6 +1,6 @@
 ---
 name: Feature Template
-about: Short Description of Feature
+about: Template for Feature 
 title: "[Feature]"
 labels: enhancement
 assignees: ''
@@ -8,14 +8,16 @@ assignees: ''
 ---
 
 # Description
+...
 
 # Acceptance Criteria:
-
+- ...
 
 # Definition of Done:
-
+- ...
 
 # Epic
-
+- ...
 
 # Dependencies (Issues):
+- ...
