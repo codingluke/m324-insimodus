@@ -1,4 +1,23 @@
-# BBZBL Modul 324: Web-Applikation Template
+# 🤑💲💸 insimodus
+Ein einfacher Budget-Tracker zur Verwaltung persönlicher Finanzen um der Insolvenz zu entkommen. Mit dieser Anwendung können allerechte Hasen ihre Einnahmen und Ausgaben erfassen und grafisch darstellen. Die Daten werden im Browser gespeichert, und die Visualisierung erfolgt mit einer JavaScript-Bibliothek wie Chart.js.
+
+## 🚀 Funktionen
+- Einnahmen und Ausgaben erfassen: Nutzer können ihre Finanztransaktionen hinzufügen und kategorisieren.
+- Grafische Darstellung: Die Einnahmen und Ausgaben werden mithilfe von Diagrammen dargestellt (z.B. Balken- oder Kreisdiagramme).
+- Lokale Speicherung: Daten werden im Browser gespeichert.
+
+## 💻 Technologien
+- Frontend: HTML, CSS, JavaScript
+- Datenvisualisierung: Chart.js (oder eine andere JavaScript-Bibliothek für Charts)
+- Speicherung: JSON-Dateien zur lokalen Speicherung der Transaktionsdaten (im Browser)
+
+<br>
+
+---
+
+<br>
+
+## 📕 BBZBL Modul 324: Web-Applikation Template
 
 Beispiel einer CI/CD Pipeline in die AWS Academy Umgebung.
 
