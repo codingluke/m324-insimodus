@@ -10,14 +10,11 @@ assignees: ''
 # Description
 ...
 
-# Acceptance Criteria:
-- ...
-
 # Definition of Done:
 - ...
 
 # Epic
-- ...
+- [Issue Hashtag]
 
 # Dependencies (Issues):
-- ...
+- keine
