@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.0.0 (2024-12-02)
+
+
+### Features
+
+* **devcontainer:** Better mise support in Dockerfile ([#11](https://github.com/bbzblit/insimodus/issues/11)) ([b529f47](https://github.com/bbzblit/insimodus/commit/b529f475555e2d40035ebae8c609ac10147675a6))
+
+
+### Bug Fixes
+
+* Updated nginx.conf file ([b585677](https://github.com/bbzblit/insimodus/commit/b58567746ec1e85d81fd09a8eed933e14cc94f77))
+
 ## 1.0.0 (2024-10-26)
 
 
