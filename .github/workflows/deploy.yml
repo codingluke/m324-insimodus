@@ -3,12 +3,13 @@ name: Deploy to Amazon AWS
 
 on:
   workflow_dispatch:
+  pull_request:
   push:
-    branches: ["main"]
+    branches: ['main']
 
 env:
   AWS_REGION: us-east-1
-  DOCKER_IMAGE_NAME: m324/nginx
+  DOCKER_IMAGE_NAME: m324/insimodus
 
 permissions:
   contents: read
@@ -58,8 +59,8 @@ jobs:
         working-directory: kamal
         env:
           KAMAL_SERVER_IP: ${{ env.SERVER_IP }}
-          KAMAL_REGISTRY: "not-used-to-push-envs"
-          KAMAL_REGISTRY_PASSWORD: "not-used-to-push-envs"
+          KAMAL_REGISTRY: 'not-used-to-push-envs'
+          KAMAL_REGISTRY_PASSWORD: 'not-used-to-push-envs'
         run: |
           EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
           to_envs() { jq -r "( . // {} ) | to_entries[] | \"\(.key)<<$EOF\n\(.value)\n$EOF\n\""; }
