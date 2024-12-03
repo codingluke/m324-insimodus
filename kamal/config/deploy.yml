@@ -33,6 +33,8 @@ ssh:
 
 # Configure custom arguments for Traefik. Be sure to reboot traefik when you modify it.
 traefik:
+  labels:
+    traefik.http.services.insimodus-web.loadbalancer.server.port: 3000
   options:
     network: 'kamal' # INFO: needs `docker network create kamal` on the servers!
 
